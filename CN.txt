@@ -1,0 +1,56 @@
+FTP  exp 9
+Install: sudo apt install vsftpd
+sudo systemctl enable vsftpd
+sudo systemctl start vsftpd
+sudo ufw allow ftp 
+Perform
+ftp ipaddress
+Id pass daalo
+
+ls    >show list
+put filename   >give file
+get filename   >take file
+
+
+
+
+NMAP  exp 7
+sudo apt-get install nmap
+nmap ipadd   >using ip
+nmap www.google.com   >using hostname
+
+nmap -p 1-80 ipadd      >range of ports is 1 to 80
+sudo nmap -sN ipadd   >ping scan
+Sudo nmap -sA ipadd   >detect firewalls
+sudo nmap -sV ipadd    >shows version
+
+
+
+
+
+Telnet  exp 10
+sudo apt install telnetd
+
+sudo systemctl enable telnet
+sudo systemctl start telnet
+
+
+telnet ipadd
+top   …..>list batayega
+kill Pid(7008)
+
+
+
+EXP 2   linux commands
+
+ifconfig     >ip address dega
+ping ipadd   >check connectivity
+netstat        >network related contents
+nslookup domain name   >ip dete
+netstat -r     >routing table
+traceroute domainname   >shows route to that domain
+dig    >
+date    …>shows date
+
+
+
